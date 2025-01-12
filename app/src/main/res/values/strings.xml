@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Momentum2</string>
+    <string name="hello" />
+    <string name="self_destruct" />
+    <string name="enter_text" />
+    <string name="title_activity_bmi">BmiActivity</string>
+    <string name="title_activity_add_expense">AddExpenseActivity</string>
+    <string name="title_activity_view_expenses">ViewExpensesActivity</string>
+    <string name="todo">TODO</string>
+    <string name="start_budget_tracker">Start Budget Tracker</string>
+</resources>

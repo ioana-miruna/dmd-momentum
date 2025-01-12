@@ -1,0 +1,74 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="100dp">
+
+    <Button
+        android:id="@+id/btnAddExpense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Expense" />
+
+    <Button
+        android:id="@+id/btnViewExpenses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Your Expenses" />
+
+    <Button
+        android:id="@+id/btnResetMonthly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset Monthly" />
+
+    <Button
+        android:id="@+id/btn_start_budget_tracker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_budget_tracker"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/btnSendBroadcast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Broadcast" />
+
+    <Button
+        android:id="@+id/btnStartMonitoring"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Monitoring" />
+
+    <Button
+        android:id="@+id/btnStopMonitoring"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Monitoring"
+        android:layout_marginTop="8dp" />
+
+
+    <TextView
+        android:id="@+id/tvElapsedTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elapsed Time: 0 seconds"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal" />
+
+    <ImageButton
+        android:id="@+id/info_button_main"
+        android:layout_width="205dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="50dp"
+        android:background="@null"
+        android:contentDescription="TODO"
+        android:src="@drawable/ic_info" />
+
+
+</LinearLayout>

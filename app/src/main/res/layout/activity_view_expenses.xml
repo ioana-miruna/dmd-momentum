@@ -1,0 +1,69 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    android:paddingBottom="50dp"
+    android:paddingTop="100dp">
+
+    <TextView
+        android:id="@+id/totalExpenses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Expenses: 0" />
+
+    <TextView
+        android:id="@+id/totalFoodExpenses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Food: 0" />
+
+    <TextView
+        android:id="@+id/totalOtherExpenses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Others: 0" />
+
+    <ListView
+        android:id="@+id/expenseListView"
+        android:layout_width="match_parent"
+        android:layout_height="394dp" />
+
+    <LinearLayout
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/info_button"
+            android:layout_width="79dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="50dp"
+            android:background="@null"
+            android:src="@drawable/ic_info" />
+
+        <ImageButton
+            android:id="@+id/share_button"
+            android:layout_width="65dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="50dp"
+            android:background="@null"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/ic_share" />
+
+        <ImageButton
+            android:id="@+id/backToMain_button"
+            android:layout_width="66dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="50dp"
+            android:background="@null"
+            android:contentDescription="TODO"
+            android:src="@drawable/ic_back" />
+
+    </LinearLayout>
+
+</LinearLayout>

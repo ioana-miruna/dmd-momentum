@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="first_button" type="id" />
+    <item name="second_button" type="id" />
+    <item name="radio_male" type="id" />
+    <item name="radio_female" type="id" />
+    <item name="edit_age" type="id" />
+    <item name="edit_height" type="id" />
+    <item name="edit_weight" type="id" />
+    <item name="button_calculate" type="id" />
+    <item name="text_result" type="id" />
+    <item name="bmi_value" type="id" />
+    <item name="tip_message" type="id" />
+    <item name="info_button" type="id" />
+    <item name="share_button" type="id" />
+    <item name="backToMain_button" type="id" />
+</resources>
