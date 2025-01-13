@@ -1,11 +1,9 @@
 # **MOMENTUM** App
 
 ## Description
-**Momentum** is a budget tracking Android application which has different features including adding expenses based on cathegories as **food** or **others**, allowing the
-users to stock all their monthly expenses. The users are also able to see their expenses one by one, as well as the total expenses for each cathegory and the total
-spent during the month. By putting tresholds, real-time elapsed and counting the time spent in the app, the users can have a better own financial control. The app
-also encourages the user to add their expenses daily by sending notifications to different hours during the day and has functionalities regarding the airplane mode is 
-on and off. The user can restore the monthly budget every time it is needed, on salary day or by their own judgement. 
+**Momentum** is a budget tracking Android application which has different features including adding expenses based on categories such as food or others, allowing the users to stock all their monthly expenses. The users are also able to see their expenses one by one, as well as the total expenses for each category and the total spent during the month. By putting thresholds, real-time elapsed and counting the time spent in the app, the users can have a better own financial control. 
+
+The app also encourages the user to add their expenses daily by sending notifications to different hours during the day and has functionalities regarding the airplane mode is on and off. The user can restore the monthly budget every time it is needed, on salary day or by their own judgement.
 
 Having control of our budget can improve our lifestyles, therefore using Momentum provides the perfect workplace for this.
 
